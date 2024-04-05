@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from '../ui/dashboard/navbar/navbar'
-import Sidebar from '../ui/dashboard/sidebar/sidebar'
+import Navbar from '../ui/dashboard/navbar/Navbar'
+import Sidebar from '../ui/dashboard/sidebar/Sidebar'
 const layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <div>
-      <div>
+    <div className='flex '>
+      <div className='  '  >
         <Sidebar />
       </div>
-      <div>
+      <div className='flex-grow'>
         <Navbar />
         {children}
       </div>
