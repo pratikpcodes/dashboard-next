@@ -6,7 +6,7 @@ import user from "../../../../../public/user.jpg"
 const Navbar = () => {
   return (
     <div>
-      <div className="w-full h-[5rem] bg-[#EBD1B0]  flex justify-between items-center border-2 px-5 rounded-xl">
+      <div className="w-full h-[5rem] bg-[#EBD1B0] border-none  flex justify-between items-center border-2 px-5 rounded-xl">
         <h2>Navbar</h2>
         <div className="flex items-center gap-2 ">
           <div style={{ width: '30px', height: '30px', top: '35px', left: '1134px', gap: '0px', opacity: '0px' }}>

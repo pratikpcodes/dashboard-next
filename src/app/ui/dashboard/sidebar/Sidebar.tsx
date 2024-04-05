@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Sidebar = () => {
   return (
-    <div className='w-[317px] bg-[#462B0A] h-[1024px]  '>
+    <div className='w-[317px] bg-[#462B0A] h-screen  '>
       <Link href="/dashboard">
         <div className="border rounded-[7px] w-[279px] h-[63px] absolute top-[203px] left-[19px]  p-4   ">
           Dashboard
